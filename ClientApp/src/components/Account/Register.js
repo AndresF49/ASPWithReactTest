@@ -1,8 +1,8 @@
-﻿import React, { Component } from 'react';
-import LoginForm from './LoginForm';
+import React, { Component } from 'react';
+import RegisterForm from './RegisterForm';
 
-export class Login extends Component {
-    static displayName = Login.name;
+export class Register extends Component {
+    static displayName = Register.name;
 
     // const { register } = useForm();
 
@@ -11,7 +11,7 @@ export class Login extends Component {
     render() {
         return (
             <>
-                <LoginForm />
+                <RegisterForm />
             </>
         );
     }
