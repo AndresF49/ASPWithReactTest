@@ -27,7 +27,7 @@ export default function LoginForm() {
 								className="form-control" 
 								id="email" 
 								placeholder="name@example.com"
-								{...register("email", {
+								{...register("Email", {
 									required: {
 										value: true,
 										message: 'Email is required'
@@ -50,7 +50,7 @@ export default function LoginForm() {
 								className="form-control" 
 								id="password" 
 								placeholder="Password"
-								{...register("password", {
+								{...register("Password", {
 									required: {
 										value: true,
 										message: 'Password is required'
