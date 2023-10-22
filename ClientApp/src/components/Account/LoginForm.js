@@ -41,7 +41,7 @@ export default function LoginForm() {
 							<Label htmlFor="email">
 								Email address
 							</Label>
-							<p className="text-danger mt-1">{errors.email?.message}</p>
+							<p className="text-danger mt-1">{errors.Email?.message}</p>
 
 						</FormGroup>
 						<FormGroup floating className="mb-3">
@@ -60,7 +60,7 @@ export default function LoginForm() {
 							<Label htmlFor="password">
 								Password
 							</Label>
-							<p className="text-danger mt-1">{errors.password?.message}</p>
+							<p className="text-danger mt-1">{errors.Password?.message}</p>
 
 						</FormGroup>
 						<div className="d-grid gap-3">
