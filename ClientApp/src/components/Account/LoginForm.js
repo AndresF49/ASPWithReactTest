@@ -1,6 +1,8 @@
 import { Button, Form, Label, FormGroup } from "reactstrap";
 import { useForm } from 'react-hook-form'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 
 // do not use Input component from reactstrap for form validation with useForm :(
 
@@ -67,7 +69,7 @@ export default function LoginForm() {
 							<Button className="btn-primary btn-login text-uppercase fw-bold" type="submit" >
 								Login
 							</Button>
-							<a className="btn btn-primary btn-login text-uppercase fw-bold" href="/register" role="button">Register</a>
+							<Link className="btn btn-primary btn-login text-uppercase fw-bold" to="/register" role="button">Register</Link>
 						</div>
 					</Form>
 				</div>
