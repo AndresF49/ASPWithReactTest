@@ -67,7 +67,7 @@ export default function LoginForm() {
 							<Button className="btn-primary btn-login text-uppercase fw-bold" type="submit" >
 								Login
 							</Button>
-							<a className="btn btn-primary btn-login text-uppercase fw-bold" href="#" role="button">Register</a>
+							<a className="btn btn-primary btn-login text-uppercase fw-bold" href="/register" role="button">Register</a>
 						</div>
 					</Form>
 				</div>
